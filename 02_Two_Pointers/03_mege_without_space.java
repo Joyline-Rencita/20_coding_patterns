@@ -1,8 +1,10 @@
-public static void merge(long arr1[], long arr2[], int n, int m) {
+class Solution
+{
+    //Function to merge the arrays.
+    public static void merge(long arr1[], long arr2[], int n, int m) {
         // Declare 2 pointers:
         int left = n - 1;  // pointer for arr1
         int right = 0;     // pointer for arr2
-
         // Swap the elements until arr1[left] is smaller than arr2[right]:
         while (left >= 0 && right < m) {
             if (arr1[left] > arr2[right]) {
@@ -20,4 +22,6 @@ public static void merge(long arr1[], long arr2[], int n, int m) {
         // Sort arr1[] and arr2[] individually:
         Arrays.sort(arr1);
         Arrays.sort(arr2);
+    }
+}
     }
