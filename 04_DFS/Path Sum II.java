@@ -18,7 +18,6 @@ Example 3:
 
 Input: root = [1,2], targetSum = 0
 Output: []
- 
 
 Constraints:
 
