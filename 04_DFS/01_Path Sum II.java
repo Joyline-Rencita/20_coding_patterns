@@ -10,12 +10,10 @@ Explanation: There are two paths whose sum equals targetSum:
 5 + 4 + 11 + 2 = 22
 5 + 8 + 4 + 5 = 22
 Example 2:
-
-
 Input: root = [1,2,3], targetSum = 5
 Output: []
+  
 Example 3:
-
 Input: root = [1,2], targetSum = 0
 Output: []
 
