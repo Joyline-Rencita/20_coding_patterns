@@ -1,0 +1,200 @@
+
+27 poems - Each sheet can have 4 pages - and each sheet can have 4 poems - Total no of pages req to prepare the book ; Give the sequence of which poem is placed where like index sort of . I need to write which poem comes in which sheet and page number.
+
+Question 2
+
+7 People play a match , two rounds , 1 st round everyone plays 3 times , no one repeats with the same player, winner is declared , 2nd round -- each player two rounds . prepare chart for the both the stages .
+
+Question 3
+
+Bus travels between a,b,c,d,e,f,g,h,i,j; H being starting point, calculate distance btw the points, kms is given in table , price for each kms is 25 paise(Rs. 0.25) , distance and cost based question.
+
+Fm\To	A	B	C	D
+
+E	10	12	15	18
+F	9	11	13	17
+G	7	14	16	20
+H	6	10	12	15
+
+
+**************************************   CODING :  *************************************
+
+* Matrix multiplication, range distribution problems, printing frequency of names as required
+
+* For coding round I got find all the inner palindrome of the positive integers, next was to find the maximum product of the subarray.
+
+
+************************************ DEPARTMRNTAL ROUND: ***********************************
+
+
+
+* The interview was in a department where u have to write the flowchart or algorithm for a given questions
+
+* I was scheduled for the department round. This phase involved solving technical tasks specific to the company’s operations. We were required to work on challenges such as designing formulas for their custom Excel-like application, retrieving and updating row values using Microsoft SQL, and implementing automation for updates. Each candidate was paired with an employee from the company who offered guidance and support throughout the process. 
+
+* The second part of the department round focused on designing flowcharts for a given set of inputs and outputs. This required us to analyze the problem, create a visual representation, and dry-run the input values to demonstrate how the output was derived. This stage emphasized logical thinking and clarity in presenting solutions.
+
+
+*********************************************************************************************
+					Aptitude Solutions
+
+
+Matrix Format (Sample Data)
+Assume the following distance matrix, where rows are: E, F, G, H (starting points)
+and columns are: A, B, C, D (destination points):
+
+Fm\To	A	B	C	D
+E	10	12	15	18
+F	9	11	13	17
+G	7	14	16	20
+H	6	10	12	15
+
+🔶 Problem Example:
+The bus starts from H, goes to A, then to C, and finally to D, then ends at F.
+Calculate:
+
+Total distance
+
+Total fare (25 paise per km)
+
+✅ Step-by-Step Distance Calculation:
+H → A = 6 (from row H, column A)
+
+A → C = ❌ not in table! So we cannot directly find A → C
+⮕ To keep it valid, let’s assume all travel is from E/F/G/H to A/B/C/D only.
+
+✅ Revised Problem:
+The bus starts from H, goes to A, then to C, then back to H
+
+Only use distances from row H for outbound legs and assume return is same.
+
+🔹 Route: H → A → C → H
+We calculate:
+
+H → A = 6
+
+H → C = 12 (this is H → C directly; A → C isn't available)
+
+C → H = same as H → C = 12 (assuming symmetric)
+
+So, Total Distance = 6 + 12 + 12 = 30 km
+
+🔹 Cost Calculation:
+₹ per km = ₹0.25
+
+Total cost = 30 × 0.25 = ₹7.50
+
+✅ Final Answer:
+Total Distance: 30 km
+
+Total Fare: ₹7.50
+
+-----------------------------------------------------------------------------------------------------------------
+
+# 🏏 Match Schedule: Winman Interview Problem
+
+## 👥 Players
+P1, P2, P3, P4, P5, P6, P7
+
+---
+
+## 🔄 Round 1: Each player plays 3 matches (no repetition)
+
+### Matches
+- Match 1: P1 vs P2
+- Match 2: P3 vs P4
+- Match 3: P5 vs P6
+- Match 4: P7 vs P1
+- Match 5: P2 vs P3
+- Match 6: P4 vs P5
+- Match 7: P6 vs P7
+- Match 8: P1 vs P3
+- Match 9: P2 vs P4
+- Match10: P5 vs P7
+- Match11: P6 vs P1
+- Match12: P3 vs P5
+- Match13: P4 vs P6
+- Match14: P7 vs P2
+- Match15: P1 vs P4
+- Match16: P2 vs P5
+- Match17: P3 vs P6
+- Match18: P7 vs P4
+- Match19: P1 vs P5
+- Match20: P2 vs P6
+- Match21: P3 vs P7
+
+> ✅ Total Matches: 21  
+> ✅ Each player plays exactly 3 matches  
+> ✅ No repeats between any pair
+
+---
+
+## 🔁 Round 2: Each player plays 2 matches (no repetition)
+
+### Matches
+- Match 1: P1 vs P6
+- Match 2: P2 vs P5
+- Match 3: P3 vs P7
+- Match 4: P4 vs P1
+- Match 5: P5 vs P3
+- Match 6: P6 vs P2
+- Match 7: P7 vs P4
+
+> ✅ Total Matches: 7  
+> ✅ Each player plays 2 matches  
+> ✅ No repeats between any pair (combined with Round 1)
+
+---
+
+## 📊 Match Summary Per Player
+
+| Player | Round 1 Matches | Round 2 Matches | Total Matches |
+|--------|------------------|------------------|----------------|
+| P1     | 3               | 2               | 5              |
+| P2     | 3               | 2               | 5              |
+| P3     | 3               | 2               | 5              |
+| P4     | 3               | 2               | 5              |
+| P5     | 3               | 2               | 5              |
+| P6     | 3               | 2               | 5              |
+| P7     | 3               | 2               | 5              |
+
+---
+
+## 🏁 Conclusion
+
+This schedule ensures that:
+- Every player plays the exact number of required matches per round.
+- No duplicate matches between players.
+- Clean and fair schedule, suitable for implementation or testing.
+
+------------------------------------------------------------------------------------------------------------
+
+
+Each sheet contains 4 pages, and each sheet can contain 4 poems.
+So, for 27 poems, we need:
+27 poems ÷ 4 poems per sheet = 6.75 sheets → 7 sheets (since you can't use a fraction of a sheet).
+That gives us 7 sheets × 4 pages = 28 pages.
+
+📘 Summary:
+Total Poems: 27
+
+Poems per Sheet: 4
+
+Pages per Sheet: 4
+
+Total Sheets: 7
+
+Total Pages: 28
+
+One Page Left Blank (last page – 28th)
+
+Each sheet has 4 positions for poems:
+
+🅱️ Bottom Sheet Left
+
+🔝 Top Sheet Left
+
+🅱️➡️ Bottom Sheet Right
+
+🔝➡️ Top Sheet Right
+
