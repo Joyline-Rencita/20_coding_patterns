@@ -202,13 +202,26 @@ Each sheet has 4 positions for poems:
 
 							Departmental Round:
 
+I.  Problem Solving :
 
-Problem Solving :
+1.  A software update of 2.5 MB takes 50 seconds to download at a speed of 400 Kbps. How much time (in seconds) will it take to download a file of 850 KB at 1.2 Mbps?
+2. A company is downloading a system backup file of 4.8 GB, and it takes 1 hour and 12 minutes to complete.What is the average download speed in Mbps?
+		
+		1 GB = 1024 MB
+		1 MB = 1024 KB
+		1 Byte = 8 bits
+
+
+**************************
+
+
+II.   SQL Server Installation :
+
+1. All the instructions will be given in the docx format, if any doubt then the employees will help to solve the problems.
+2.  U hv to create 2 folders and give the necessary permissions. All the instructions are given in the docx format.
 
 
 
+*************************************
 
-
-SQL Server Installation :
-
-All the instructions will be given in the docx format, if any doubt then the employees will help to solve the problem.
+III. 
