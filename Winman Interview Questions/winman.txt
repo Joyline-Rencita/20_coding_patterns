@@ -1,3 +1,4 @@
+Aptitude Questions :
 
 27 poems - Each sheet can have 4 pages - and each sheet can have 4 poems - Total no of pages req to prepare the book ; Give the sequence of which poem is placed where like index sort of . I need to write which poem comes in which sheet and page number.
 
