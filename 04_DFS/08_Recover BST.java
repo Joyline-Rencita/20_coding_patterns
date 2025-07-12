@@ -31,6 +31,7 @@ The number of nodes in the tree is in the range [2, 1000].
  *     }
  * }
  */
+    
 class Solution {
     private TreeNode prev;
     private TreeNode first;
