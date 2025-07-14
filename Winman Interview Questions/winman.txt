@@ -27,8 +27,6 @@ H	6	10	12	15
 
 ************************************ DEPARTMRNTAL ROUND: ***********************************
 
-
-
 * The interview was in a department where u have to write the flowchart or algorithm for a given questions
 
 * I was scheduled for the department round. This phase involved solving technical tasks specific to the company’s operations. We were required to work on challenges such as designing formulas for their custom Excel-like application, retrieving and updating row values using Microsoft SQL, and implementing automation for updates. Each candidate was paired with an employee from the company who offered guidance and support throughout the process. 
@@ -213,7 +211,7 @@ I.  Problem Solving :
 		1 Byte = 8 bits
 
 
-**************************
+****************************************
 
 
 II.   SQL Server Installation :
@@ -222,7 +220,6 @@ II.   SQL Server Installation :
 2.  U hv to create 2 folders and give the necessary permissions. All the instructions are given in the docx format.
 
 
-
-*************************************
+****************************************
 
 III. 
