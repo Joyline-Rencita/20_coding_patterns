@@ -26,7 +26,9 @@ H	6	10	12	15
 * For coding round I got find all the inner palindrome of the positive integers, next was to find the maximum product of the subarray.
 
 
+
 ************************************ DEPARTMRNTAL ROUND: ***********************************
+
 
 * The interview was in a department where u have to write the flowchart or algorithm for a given questions
 
@@ -36,6 +38,7 @@ H	6	10	12	15
 
 
 *********************************************************************************************
+
 					Aptitude Solutions
 
 
