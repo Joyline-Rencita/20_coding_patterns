@@ -20,6 +20,7 @@ H	6	10	12	15
 
 **************************************   CODING :  *************************************
 
+
 * Matrix multiplication, range distribution problems, printing frequency of names as required
 
 * For coding round I got find all the inner palindrome of the positive integers, next was to find the maximum product of the subarray.
